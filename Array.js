@@ -3,6 +3,7 @@ let mobil = [
     "toyota","Avanza","BMW"
 ];
 mobil.push("Nissan");
+mobil.pop();
 mobil.unshift("Lamborghini");
 mobil.splice(5,0, "Ferrary");
 console.log(mobil);
@@ -35,7 +36,26 @@ console.log(Motor);
 
 
 //removimg elements
-const no = [1,2,3,4,5];
+const no = [1,2,3,4,5,6];
 
 const last = no.pop();
 console.log(last);
+
+const start = no.shift();
+console.log(start);
+
+//removing arrray
+let angka = [1,2,3,4,5];
+let another = angka;
+
+if (angka.length > 0 ){
+     console.log("array kosong");
+}else{
+    console.log("array masih ada");
+}
+
+while (angka.length > 0 ) 
+angka.pop();
+
+console.log(angka.length)
+console.log(another.length)
