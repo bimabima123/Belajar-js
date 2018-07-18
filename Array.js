@@ -107,3 +107,11 @@ const items = familly
 //const nameFamilly = fullFamilly.map(n => '<li>'+n+'</li>');
 //console.log(fullFamilly);
 console.log(items);
+
+const nmr = [1,2,3,4,5];
+
+let sum = nmr.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue ;
+},0);
+
+console.log(sum);
