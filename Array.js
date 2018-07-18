@@ -115,3 +115,5 @@ let sum = nmr.reduce((accumulator, currentValue) => {
 },0);
 
 console.log(sum);
+
+

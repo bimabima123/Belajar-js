@@ -55,3 +55,13 @@ lampuMerah("merah","ungu");
 
 
 
+const data = (motor) => {
+    console.log(motor);
+}
+data("yamaha");
+
+function dataa(mobil){
+    console.log(mobil);
+}
+
+dataa("Avanza");
