@@ -9,7 +9,7 @@ let firstname = undefined;
 let lastname = null;
 
 
-alert('Belajar Javascript');
+// alert('Belajar Javascript');
 //variable
     // const
     const a = "belajar";
@@ -129,5 +129,12 @@ let nilai = 13;
  
 
 let angka = 3;
-let o = (angka > 5 && angka < 5);
+let o = (angka > 1 && angka < 5);
 console.log(o)
+
+var u = 5;
+if( !u){
+    console.log(!u);
+}
+
+console.log(false || true);

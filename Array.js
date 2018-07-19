@@ -2,19 +2,19 @@
 let mobil = [
     "toyota","Avanza","BMW"
 ];
-mobil.push("Nissan");
-mobil.pop();
-mobil.unshift("Lamborghini");
-mobil.splice(5,0, "Ferrary");
+mobil.push("Nissan");// untuk menambah kan objek paling belakang
+//mobil.pop();
+mobil.unshift("Lamborghini"); // untuk menambah kan objek paling depan
+mobil.splice(5,0, "Ferrary");// untuk menyelipkan objek.
 console.log(mobil);
 
 //Finding Elements(primitive)
 const numbers = [1,2,1,3,4];
 
-console.log(numbers.indexOf(1));
-console.log(numbers.lastIndexOf(3));
-console.log(numbers.indexOf(1) === 0);
-console.log(numbers.includes(4));
+console.log(numbers.indexOf(1));// mencari angka 1 di index ke berapa.
+console.log(numbers.lastIndexOf(3));//mencari angka 3 berada di index berapa.
+console.log(numbers.indexOf(1) === 0); //menyamakan posisi index.
+console.log(numbers.includes(4));//menghitung seberapa banyak array
 
 // finding elements
 //memanggil object yg akan di pilih menggunakan find
@@ -108,12 +108,15 @@ const items = familly
 //console.log(fullFamilly);
 console.log(items);
 
+//array.prototype.reduce()
 const nmr = [1,2,3,4,5];
 
-let sum = nmr.reduce((accumulator, currentValue) => {
-    return accumulator + currentValue ;
+let sum = nmr.reduce((akumulasi, angka) => {
+    return akumulasi + angka ;
 },0);
 
 console.log(sum);
+
+
 
 
